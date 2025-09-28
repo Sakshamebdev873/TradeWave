@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "name": "tradewave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "npx tsc",
+  "start": "node dist/index.js",
+  "dev": "nodemon src/index.ts"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sakshamebdev873/TradeWave.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sakshamebdev873/TradeWave/issues"
+  },
+  "homepage": "https://github.com/Sakshamebdev873/TradeWave#readme"
+}
